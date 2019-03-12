@@ -1,0 +1,31 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPageFlash.master.cs" Inherits="Application_MasterPageFlash" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="Page.css" type="text/css" rel="stylesheet" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="main">        
+        <div id="middle">
+            <div class="flash">
+                <asp:ContentPlaceHolder id="ContentFlash" runat="server">
+  
+                </asp:ContentPlaceHolder>
+            </div>
+        </div>
+       
+        <div id="footer">
+            <div class="footerdiv">
+                <asp:ImageButton ID="ImageButton1" runat="server" class="backdiv" ImageUrl="~/Images/ImgApplication/back_Black(60X60).png" PostBackUrl="~/Application/ApplicationHome.aspx" />
+            </div>
+        </div>
+    </div>
+    </form>
+</body>
+</html>

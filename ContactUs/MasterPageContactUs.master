@@ -1,0 +1,49 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPageContactUs.master.cs" Inherits="ContactUs_MasterPageContactUs" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>
+       Margi Mayur kidsClub
+    </title>
+    <link href="StyleSheet_ContactPage.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+
+    <form id="form1" runat="server">
+    <div id="main">
+
+         <div id="header">
+             <div class="container">
+                <div class="logo">
+                    <img src="../Images/ImgContactUs/logo11.png" />
+                </div>
+                <div class="menu">
+                    <a href="ContactHome.aspx" class="link">Home</a>
+                    <a href="ContactGame.aspx" class="link">Game</a>
+                    <a href="ContactContact.aspx" class="link">Contact</a>
+                </div>
+            </div>
+        </div>
+        <div id="pagebody">
+            <div class="container2">
+            <asp:ContentPlaceHolder id="PageBody" runat="server">
+        
+            </asp:ContentPlaceHolder>
+                </div>
+        </div>
+        <div id="footer">
+            <div class="container3"> 
+                <div class="footer1">EDUCATION TOOL FOR KIDS, CRAFTED WITH  <h2>&#x02764;</h2>  IN AHMEDABAD </div>
+                <div class="footer2"> &nbsp;&nbsp; copyright &copy 2017-2020 margi &amp; mayur | All Right Reserved </div>
+                <div class="footer3"> <a href="ContactPrivacyPolicy.aspx" style="text-decoration:none;color:chartreuse">Privacy Policy</a></div>
+            </div>
+        </div>
+            
+    </div>
+    </form>
+</body>
+</html>

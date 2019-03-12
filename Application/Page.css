@@ -1,0 +1,68 @@
+﻿body {
+    background-image: url("../Images/ImgApplication/page_bg.jpg");
+    background-repeat: repeat;
+}
+#main{
+    //background-image: url('../Images/ImgApplication/BackGround11.png');
+    //background-color:red;
+    height: auto;
+    width:1000px;
+    margin: auto;
+    
+}
+#middle{
+    //background-color:lightgray;
+    height: 620px;
+    width: auto;
+    border: 7px solid blue;
+    border-radius: 15px;
+    background-image: url('../Images/ImgApplication/BackGround11.png');
+    margin-top: 30px;
+}
+.flash{
+    //background-color: darkblue;
+    height: 600px;
+    width: 920px;
+    margin: auto;
+    margin-bottom:0px;
+    margin-top:5px;
+    //border: 5px solid pink;
+    //border-radius: 15px;
+    padding-top: 11px;
+    padding-left: 9px;
+    position:relative;
+}
+#footer{
+    background-color:crimson;
+    background-image: url('../Images/ImgApplication/footer1.png');
+    height:80px;
+    width: auto;
+    margin-top: 20px;
+    border: 7px solid blue;
+    border-radius: 15px;
+    background-repeat: no-repeat;
+}
+.footerdiv{
+    //background-image: url("../Images/ImgApplication/back_Black(60X60).png");
+    height:60px; width: 60px; 
+    margin-top: 6px; 
+    border: 3px solid #4b4444;
+    border-radius: 55px; 
+    position: absolute;
+    left: 1090px;
+}
+
+.footerdiv:hover{
+    //background-color: #4b4444;
+    //background-image: url("../Images/ImgApplication/back_white(60X60).png");
+    border: 5px solid  #4b4444;
+    border-radius: 55px;
+}
+
+.backdiv{
+    height:45px;
+    width:45px;
+    position:center;
+    margin-left:5px;
+    margin-top:4px;
+}

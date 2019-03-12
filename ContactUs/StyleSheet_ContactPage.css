@@ -1,0 +1,521 @@
+﻿body {
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    position:center;
+    //font: 11px/1.7 'Open Sans', 'Lucida Sans Unicode', 'Lucida Grande', 'sans-serif';
+    //font:oswald;
+     background-image:url("../Images/ImgContactUs/bg.png");
+    background-repeat: repeat;
+}
+#main{
+    position: absolute;
+    width:100%;
+
+}
+#header{
+    width: 100%;
+    background-color: white;
+    border-top: 4px solid #e94142;
+    height :100px;
+    //margin: auto; 
+    position: relative;
+    text-align: center;
+    box-shadow: 0 0 5px;
+}
+#pagebody{
+    height:auto;
+    width:100%;
+    top: 130px;
+    //position: absolute;
+    //background-color: aqua;
+}
+#footer{
+    height: 80px;
+    //width:1366px;
+    //background-color: seagreen;
+    background-color:rgba(0,0,0,.60);
+}
+.container{
+    text-align:center;
+    height: auto;
+    width: 1200px;
+    //background-color: rebeccapurple;
+    position:relative;
+    margin-left: auto;
+    margin-right: auto;
+    position:center;
+}
+.container2{
+    position:relative;
+    margin-left: auto;
+    margin-right: auto;
+   margin-top:25px;
+   margin-bottom:12px;
+    position:center;
+   // background-color: red;
+    height: auto;
+    width: 1200px;
+    //text-align: center;
+}
+.container3{
+    position:relative;
+    margin-left: auto;
+    margin-right: auto;
+    position:center;
+    height: 80px;
+    width: 1200px;
+    //background-color: rebeccapurple;
+    
+}
+.logo{
+    position: absolute;
+    left: -1px;
+    margin-top: -20px;
+}
+.menu {
+    position: relative;
+    left: 890px;
+    //background-color:coral;
+    height: 50px;
+    width: 350px;
+    margin-top: 35px;
+    padding-top: 20px;
+}
+.link{
+    //background-color: aliceblue;
+    font-family :"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size:28px;
+    font-variant: small-caps;
+    letter-spacing: -1.7px;
+    color: #333;
+    font-weight: 200;
+}
+a{
+    text-decoration: none;
+    margin-right: 20px;
+}
+a:hover{
+    
+    color: olive;
+    color: #e94142;
+}
+.footer1{
+    font-size: 14px;
+    width: 500px;
+    position: relative;
+    top: 11px;
+    //left: 440px;
+    //background-color: deeppink;
+    color: antiquewhite;
+    margin:auto;
+    position:center;
+}
+.footer3{
+    font-size: 15px;
+    position:relative;
+    left: 1100px;
+    //background-color:palevioletred;
+    width: 110px;
+}
+
+h2{
+    color:red;
+    display:inline;
+}
+.footer2{
+    //color: white;
+    //font-family: ;
+    font-size: 14px;
+    //font-weight: bold;
+    width: 400px;
+    //background-color: lightyellow;
+    position: relative;
+    top: 20px;
+    margin:auto;
+    position:center;
+    //left: 500px;
+    color: antiquewhite;
+}
+.mainHome{
+    //background-color:burlywood;
+    height:auto;
+}
+
+#container{
+    width:100%;
+    height: 525px;
+    border:4px solid white;
+    margin: 0 auto;
+    position: relative;
+}
+#container>img{
+    width:100%;
+    height: 100%;
+    position: absolute;
+}
+#container>.btn{
+    position:absolute;
+    width:45px;
+    height:45px;
+    border:1px solid white;
+    border-radius: 25px;
+    top: 250px;
+    font-size:x-large;
+    background-color:rgba(0,0,0,.30);
+    color:white;
+}
+#container>#btn1:hover{
+    border: 3px solid white;
+    border-radius: 25px;
+    background-color:rgba(0,0,0,.60);
+}
+#container>#btn2:hover{
+    border: 3px solid white;
+    border-radius: 25px;
+    background-color:rgba(0,0,0,.60);
+}
+#container > #btn2 {
+    position: relative;
+    float: right;
+}
+
+
+
+
+.middleHome{
+    //background-color:royalblue;
+    margin-top: 45px;
+    width:800px;
+    font-family:'Franklin Gothic Medium';
+    font-size: 20px;
+    position:relative;
+    color: rgba(0,0,0,.70);
+    left: 230px;
+}
+.inner{
+    margin: 8px;
+    position:relative;
+    left: 147px;
+}
+.txtemail{
+    height: 28px;
+    width:230px;
+    border: 1px solid rgba(0,0,0,.30);
+    border-radius: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #333;
+    letter-spacing:.5px;
+    padding-left:5px;
+}
+.txtemail:focus{
+    border-radius: 4px;
+    box-shadow: 0 0  5px #6ff6ee ;
+}
+.btnjoin{
+    height: 32px;
+    width:150px;
+    border: 2px solid green;
+    border-radius: 4px;
+    font-family:Arial, Helvetica, sans-serif;
+    //font-weight: bold;
+    font-size:large;
+    color:white;
+    background-color: #458B00;
+}
+.btnjoin:hover{
+    border: 2px solid rgba(0,0,0,.40);
+    border-radius: 4px;
+    box-shadow: 0 0 5px black;
+}
+.middle2home {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 100%;
+    height: 450px;
+    //background-color: seagreen;
+}
+.lefthome{
+    //background-color: red;
+    height: 450px;
+    width: 600px;
+    position:absolute;
+}
+
+.righthome{
+    //background-color: deeppink;
+    height: 450px;
+    width: 570px;
+    position:relative;
+    left:630px;
+}
+.midimg1{
+    height: 110px;
+    width:150px;
+    //background-color:greenyellow;
+    position: relative;
+    left: 190px;
+}
+.midimg2 {
+    height: 110px;
+    width: 150px;
+    //background-color: greenyellow;
+    position: relative;
+    left: 210px;
+}
+.phead{
+    margin-top:-1px;
+    font-size: 22px;
+    font-weight: bold;
+    font-family:11px/1.7 'Open Sans', 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+    margin-left:15px;
+    color: rgba(0,0,0,.80)
+}
+.pheadbody{
+    font-family:Cambria;
+    letter-spacing:.2px;
+    font-size:18px;
+    text-align:center;
+    //background-color: white;
+    height:290px;
+    width:570px;
+    margin-left:5px;
+    padding: 10px;
+    margin-top:-20px;
+    color:rgba(0,0,0,.75);
+    line-height:27px;
+}
+.phead2{
+    margin-top:-10px;
+    font-size: 22px;
+    font-weight: bold;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left:8px;
+    color: rgba(0,0,0,.80)
+}
+.pheadbody2{
+    //background-color: rebeccapurple;
+    height:340px;
+    width:550px;
+     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: -200px;
+}
+.txt{
+    height:25px;
+    width:540px;
+    margin-bottom:15px;
+    border: 1px solid rgba(0,0,0,.30);
+    border-radius: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #333;
+    letter-spacing:.5px;
+    padding-left:5px;
+    //padding: 1px 10px 1px 10px;
+}
+.txtadd{
+    width:540px;
+    height: 150px;
+    margin-bottom:10px;
+    border: 1px solid rgba(0,0,0,.30);
+    border-radius: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    //padding: 1px 10px 1px 10px;
+    color: #333;
+    padding-left:5px;
+    letter-spacing:.5px;
+}
+.btn{
+    height: 40px;
+    width:120px;
+    border: 2px solid green;
+    border-radius: 4px;
+    font-family:Arial, Helvetica, sans-serif;
+    //font-weight: bold;
+    font-size:20px;
+    color:white;
+    letter-spacing:2px;
+    background-color: #458B00;
+}
+.btn:hover{
+    border: 2px solid rgba(0,0,0,.40);
+    border-radius: 4px;
+    box-shadow: 0 0 5px black;
+}
+.txt:focus{
+    border-radius: 4px;
+    box-shadow: 0 0  5px #6ff6ee ;
+}
+/* Contact---Contact Paage-----------------------*/
+
+.cmain{
+    //background-color:rebeccapurple;
+    height:45px;
+    width:auto;
+    font-size:22px;
+    font: 'Open Sans', 'Lucida Sans Unicode', 'Lucida Grande', 'sans-serif';
+    margin-left:10px;
+    margin-top:30px;
+    border-bottom: 1.9px solid white;
+    color: rgba(0,0,0,.80)
+}
+.cmidmain{
+    //background-color:palevioletred;
+    height:600px;
+    width:auto;
+    margin-top:30px;
+}
+.cmid{
+    //background-color: hotpink;
+    height: 450px;
+    width: 570px;
+    margin-top:40px;
+}
+.cmid2{
+    //background-color: aqua;
+    height:530px;
+    width:400px;
+    left:700px;
+    position:relative;
+    margin-top: -110px;
+}
+.classf{
+    margin-top:-10px;
+    font-size: 22px;
+    font-weight: bold;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left:139px;
+    color: rgba(0,0,0,.80)
+}
+.likebox-frame{
+    //border:2px solid rgba(0,0,0,.60);
+    border:3px solid #333;
+    width:344px;
+    overflow: hidden;
+    background-color: white;
+    position:relative;
+    left:25px;
+    margin-top:10px;
+}
+.cmidmain2{
+    //background-color:palevioletred;
+    height:70px;
+    width:auto;
+    margin-top:-80px;
+}
+.cque{
+    //background-color:mediumspringgreen;
+    height:500px;
+    width:1200px;
+    margin-top: 90px;
+}
+.que{
+    font-family:Cambria;
+    letter-spacing:.2px;
+    font-size:20px;
+    //text-align:center;
+    font-weight:bold;
+    color: rgba(0,0,0,.80);
+}
+.ans{
+    font-family:Cambria;
+    letter-spacing:.2px;
+    font-size:18px;
+    //text-align:center;
+    //font-weight:bold;
+    color: rgba(0,0,0,.60);
+    display:inline
+}
+.bottomimg{
+    //background-color: brown;
+    height: 300px;
+    width:150px;
+    position:relative;
+    left:538px;
+    margin-bottom: 70px;
+    //margin-top: 100px;
+    
+}
+.pdiv{
+    height:700px;
+    width: 1200px;
+    //background-color: pink;
+}
+.pimg{
+    //background-color:rebeccapurple;
+    height:100px;
+    width:150px;
+    position:relative;
+    margin:auto;
+    top:20px;
+}
+.pp{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:18.5px;
+    color:rgba(0,0,0,.60);
+}
+.pd{
+     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     //font-weight:bold;
+     letter-spacing:.1px;
+    //background-color:seagreen;
+    height:150px;
+    width:1100px;
+    font-size:18px;
+    margin-left:20px;
+    color:rgba(0,0,0,.60);
+}
+.bottomimg{
+    height:250px;
+    width:200px;
+    //background-color:rebeccapurple;
+    margin-top:-100px
+}
+.gamediv{
+    height:1550px;
+    width: 1200px;
+    //background-color: orangered;
+    margin-top: 30px;
+}
+.inside1{
+    //background-color: aqua;
+    height: 500px;width: 1200px;
+}
+.gameleft{
+    height: 500px;
+    width: 560px;
+    //background-color: blueviolet;
+    margin-left: 25px;
+    position: absolute;
+    //border: 5px solid white;
+}
+.gameright{
+    height: 500px;
+    width: 560px;
+    //background-color: blueviolet;
+    margin-left: 630px;
+    position:relative;
+    //border: 5px solid white;
+}
+.gameimg{
+    height:250px;
+    width:530px;
+    
+}
+.gamedisc{
+    height:220px;
+    width:530px;
+    //background-color:chocolate;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.containergame{
+    width:530px;
+    height: 250px;
+    border:2px solid white;
+    margin: 0 auto;
+    position: relative;
+}
+
